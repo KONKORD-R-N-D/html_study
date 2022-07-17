@@ -1,0 +1,180 @@
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+@font-face {
+    font-family: Pobeda;
+    src: url("../fonts/Pobeda-Bold.woff2") format("woff2"),
+        url("../fonts/Pobeda-Bold.woff") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pobeda';
+    src: url("../fonts/Pobeda-Regular.woff2") format('woff2'),
+        url('Pobeda-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InputMono';
+    src: url("../fonts/InputMono-Italic.woff2") format('woff2'),
+        url("../fonts/InputMono-Italic.woff") format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Hellenica Serif Pro';
+    src: url("../fonts/PFHellenicaSerifPro-Bold.woff2") format('woff2'),
+        url("../fonts/PFHellenicaSerifPro-Bold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url("../fonts/MontserratAlternates-Medium.woff2") format('woff2'),
+        url("../fonts/MontserratAlternates-Medium.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Обнуление стилей */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Neucha";
+    line-height: 1;
+}
+
+/* ----------------------- */
+
+h1 {
+    font-family: Pobeda;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #570a08;
+    text-align: center;
+}
+
+nav a,
+footer a {
+    font-family: InputMono;
+    font-weight: 200;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: green;
+    text-align: center;
+}
+
+.a-link {
+    text-align: center;
+}
+
+nav ul {
+    font-family: 'Montserrat Alternates';
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+h2 {
+    font-family: "Prosto One";
+    font-size: 30px;
+    color: black;
+    font-style: normal;
+    text-indent: 0;
+    text-shadow: 5px 5px 5px rgb(85, 85, 85);
+}
+
+nav h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: red;
+    text-align: right;
+    text-shadow: none;
+}
+
+.bio {
+    font-family: "Neucha";
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(160, 156, 156);
+    text-align: justify;
+    letter-spacing: 5px;
+    white-space: nowrap;
+}
+
+div.bio span {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-style: normal;
+    color: black;
+}
+
+.c-main {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+footer>p {
+    font-family: monospace;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: line-through;
+    text-align: center;
+    color: #570a08;
+}
